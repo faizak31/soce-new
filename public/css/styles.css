@@ -17,6 +17,14 @@
     background-position: center;
     position: relative;
 }
+.section1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/img/about.png");
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -64,7 +72,7 @@ nav{
     width: 50%;
     color: #ffff;
     position: absolute;
-    left: 10%;
+    left: 7%;
     font-size: 3.5rem;
     font-family: 'Oswald', sans-serif;
     line-height: 1.2;
@@ -73,6 +81,16 @@ nav{
 .text-box p{
     font-size: 2rem;
     margin-top: 1%;
+}
+.content-box{
+    width: 50%;
+    color: #ffff;
+    position: absolute;
+    left: 4%;
+    right: 60%;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2;
 }
 nav .fa{
     display: none;
@@ -109,4 +127,5 @@ nav .fa{
     .nav-links ul{
         padding: 40px;
     }
+
 }
