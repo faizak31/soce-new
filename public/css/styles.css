@@ -12,11 +12,12 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("/img/image2.png");
+    background-image: url("/img/image1.png");
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -64,7 +65,7 @@ nav{
     width: 50%;
     color: #ffff;
     position: absolute;
-    left: 10%;
+    left: 7%;
     font-size: 3.5rem;
     font-family: 'Oswald', sans-serif;
     line-height: 1.2;
@@ -74,8 +75,28 @@ nav{
     font-size: 2rem;
     margin-top: 1%;
 }
+
 nav .fa{
     display: none;
+}
+
+.section1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/img/about.jpg");
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+.content-box{
+    width: 50%;
+    color: #ffff;
+    position: absolute;
+    left: 4%;
+    right: 60%;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2;
 }
 @media(max-width:700px){
     .text-box{
@@ -108,5 +129,22 @@ nav .fa{
     }
     .nav-links ul{
         padding: 40px;
+    }
+    .content-box h1{
+        font-size: 2rem;
+    }
+    .content-box p{
+        font-size: 1.2rem;
+    }
+
+    .section1{
+        text-align: center;
+        background-position: right;
+    }
+    .content-box,.text-box{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
